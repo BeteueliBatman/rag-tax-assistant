@@ -1,0 +1,44 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Data files (ძალიან დიდია git-ისთვის)
+data/raw/
+data/processed/
+data/chroma_db/
+
+# API Keys და სენსიტიური ინფორმაცია
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Distribution
+dist/
+build/
+*.egg-info/
