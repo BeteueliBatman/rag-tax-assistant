@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 from dotenv import load_dotenv
 from groq import Groq
-from vector_store import VectorStore
+from .vector_store import VectorStore
 
 load_dotenv()
 
